@@ -1,6 +1,6 @@
- 🏦 Customer Churn Prediction using Machine Learning
+**Customer Churn Prediction using Machine Learning**
 
-📌 Overview
+Overview
 
 This project predicts whether a bank customer is likely to leave the bank (Exited = 1) or remain a customer (Exited = 0) using Machine Learning.
 
@@ -8,21 +8,20 @@ The project follows a complete end-to-end machine learning workflow, including d
 
 
 
- 🎯 Problem Statement
+Problem Statement
 
 Customer churn is a major challenge for banks. The objective of this project is to build a machine learning model that can accurately predict whether a customer will leave the bank based on their demographic and financial information.
 
 
 
- 📂 Dataset
+ Dataset
 
 - **Source:** Kaggle - Bank Customer Churn Prediction Competition
 - **Problem Type:** Binary Classification
 - **Target Variable:** Exited
 
 
-
-🛠️ Project Workflow
+ Project Workflow
 
 - Import Libraries
 - Load Dataset
@@ -39,7 +38,7 @@ Customer churn is a major challenge for banks. The objective of this project is 
 
 
 
-🤖 Machine Learning Models Used
+ Machine Learning Models Used
 
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
@@ -48,7 +47,7 @@ Customer churn is a major challenge for banks. The objective of this project is 
 
 
 
- 📊 Model Evaluation
+ Model Evaluation
 
 The following metrics were used to compare model performance:
 
@@ -60,13 +59,12 @@ The following metrics were used to compare model performance:
 - Classification Report
 
 
-
-⚙️ Hyperparameter Tuning
+Hyperparameter Tuning
 
 Random Forest was optimized using **GridSearchCV** to find the best combination of hyperparameters.
 
 
-🏆 Best Model
+Best Model
 
 Random Forest Classifier (GridSearchCV Tuned)**
 
@@ -74,7 +72,7 @@ The final model was trained on the complete training dataset and probability pre
 
 
 
-🧰 Technologies Used
+Technologies Used
 
 - Python
 - NumPy
@@ -87,7 +85,7 @@ The final model was trained on the complete training dataset and probability pre
 
 
 
- 🚀 Skills Demonstrated
+ Skills Demonstrated
 
 - Exploratory Data Analysis (EDA)
 - Data Cleaning
@@ -101,7 +99,7 @@ The final model was trained on the complete training dataset and probability pre
 
 
 
- 📈 Future Improvements
+ Future Improvements
 
 - Support Vector Machine (SVM)
 - XGBoost
@@ -112,9 +110,9 @@ The final model was trained on the complete training dataset and probability pre
 - Class Imbalance Handling (SMOTE)
 
 
-👨‍💻 Author
+Author
 
-M. Charan Sidhvi**
+M. Charan Sidhvi
 
 Aspiring Machine Learning Engineer
 
