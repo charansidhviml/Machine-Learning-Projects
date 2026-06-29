@@ -1,28 +1,28 @@
-# 🏦 Customer Churn Prediction using Machine Learning
+ 🏦 Customer Churn Prediction using Machine Learning
 
-## 📌 Overview
+📌 Overview
 
 This project predicts whether a bank customer is likely to leave the bank (Exited = 1) or remain a customer (Exited = 0) using Machine Learning.
 
 The project follows a complete end-to-end machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model comparison, hyperparameter tuning, and Kaggle submission.
 
----
 
-## 🎯 Problem Statement
+
+ 🎯 Problem Statement
 
 Customer churn is a major challenge for banks. The objective of this project is to build a machine learning model that can accurately predict whether a customer will leave the bank based on their demographic and financial information.
 
----
 
-## 📂 Dataset
+
+ 📂 Dataset
 
 - **Source:** Kaggle - Bank Customer Churn Prediction Competition
 - **Problem Type:** Binary Classification
 - **Target Variable:** Exited
 
----
 
-## 🛠️ Project Workflow
+
+🛠️ Project Workflow
 
 - Import Libraries
 - Load Dataset
@@ -37,18 +37,18 @@ Customer churn is a major challenge for banks. The objective of this project is 
 - Hyperparameter Tuning using GridSearchCV
 - Final Kaggle Submission
 
----
 
-## 🤖 Machine Learning Models Used
+
+🤖 Machine Learning Models Used
 
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Decision Tree Classifier
 - Random Forest Classifier
 
----
 
-## 📊 Model Evaluation
+
+ 📊 Model Evaluation
 
 The following metrics were used to compare model performance:
 
@@ -59,23 +59,22 @@ The following metrics were used to compare model performance:
 - Confusion Matrix
 - Classification Report
 
----
 
-## ⚙️ Hyperparameter Tuning
+
+⚙️ Hyperparameter Tuning
 
 Random Forest was optimized using **GridSearchCV** to find the best combination of hyperparameters.
 
----
 
-## 🏆 Best Model
+🏆 Best Model
 
-**Random Forest Classifier (GridSearchCV Tuned)**
+Random Forest Classifier (GridSearchCV Tuned)**
 
 The final model was trained on the complete training dataset and probability predictions were generated using `predict_proba()` for Kaggle submission.
 
----
 
-## 🧰 Technologies Used
+
+🧰 Technologies Used
 
 - Python
 - NumPy
@@ -84,22 +83,11 @@ The final model was trained on the complete training dataset and probability pre
 - Scikit-learn
 - Jupyter Notebook
 
----
 
-## 📁 Project Structure
 
-```text
-Customer-Churn-Prediction/
-│
-├── CustomerChurnPrediction.ipynb
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
 
----
 
-## 🚀 Skills Demonstrated
+ 🚀 Skills Demonstrated
 
 - Exploratory Data Analysis (EDA)
 - Data Cleaning
@@ -111,9 +99,9 @@ Customer-Churn-Prediction/
 - Hyperparameter Tuning
 - Kaggle Competition Workflow
 
----
 
-## 📈 Future Improvements
+
+ 📈 Future Improvements
 
 - Support Vector Machine (SVM)
 - XGBoost
@@ -123,16 +111,15 @@ Customer-Churn-Prediction/
 - Cross Validation
 - Class Imbalance Handling (SMOTE)
 
----
 
-## 👨‍💻 Author
+👨‍💻 Author
 
-**M. Charan Sidhvi**
+M. Charan Sidhvi**
 
 Aspiring Machine Learning Engineer
 
 GitHub: https://github.com/charansidhviml
 
----
+
 
 ⭐ If you found this project helpful, please consider giving it a star!
